@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Lane - A Surprise for You</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="floating-stars"></div> <!-- Decorative floating elements -->
+    <div class="floating-hearts"></div>
+    
+    <header>
+        <h1>Memory Lane</h1>
+        <p>A little gallery of our friendship, built with care from afar.</p>
+    </header>
+
+    <section id="gallery">
+        <div class="image-grid">
+            <!-- Replace src with your friend's actual image paths, e.g., images/photo1.jpg -->
+            <img src="images/photo1.jpg" alt="A beautiful moment" data-caption="The day we first connected online.">
+            <img src="images/photo2.jpg" alt="Smiling face" data-caption="Your smile that brightens my day.">
+            <img src="images/photo3.jpg" alt="Adventure pic" data-caption="Imagining adventures we'd have together.">
+            <img src="images/photo4.jpg" alt="Favorite pose" data-caption="This one captures your spirit perfectly.">
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+
+    <section id="message">
+        <h2>A Note from Me</h2>
+        <p>Even though we've never met in person, your pictures and our chats have made you feel like a true friend. Here's to more memories ahead!</p>
+        <button id="surprise-btn">Click for a Surprise</button>
+        <p id="surprise-note" style="display: none;">You've got the best laugh—can't wait to hear it in real life someday! 😊</p>
+    </section>
+
+    <footer>
+        <p>Made with ❤️ for our long-distance friendship.</p>
+    </footer>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" src="" alt="">
+        <div id="lightbox-caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
